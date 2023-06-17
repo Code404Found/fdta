@@ -14,6 +14,7 @@ Our product is a few in one, we give the option of packages that have all your t
 ## Scope (In/Out)
 
 **IN** - What will your product do
+Our product will allow the user to have a conversation with the FDTA support team.
 
 
 **OUT** - What will your product not do.
