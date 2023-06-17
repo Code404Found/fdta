@@ -16,6 +16,8 @@ Our product is a few in one, we give the option of packages that have all your t
 **IN** - What will your product do
 <br>
 Our product will allow the user to have a conversation with the FDTA support team.
+<br> 
+Users can fill out a survey within the chat to win free flights
 
 
 **OUT** - What will your product not do.
