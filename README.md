@@ -6,6 +6,7 @@ FDTA is a flight agency webpage
 ## Links & Resources
 [Project Management Board](https://github.com/orgs/Code404Found/projects/1/views/1)
 [Problem Domain Model](https://miro.com/app/board/uXjVM9pTxp0=/)
+[Reset CSS](www.meyerweb.com)
 
 
 ### Lighthouse Accessibility Report Score
