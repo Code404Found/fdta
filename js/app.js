@@ -5,5 +5,5 @@ function openChat() {
 }
 
 function closeChat() {
-  document.getElementById("close-chat").style.display = none;
+  document.getElementById("close-chat").style.display = "none";
 }
