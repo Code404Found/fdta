@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/form.css" />
     <title>Flight Domain Travel Agency</title>
   </head>
@@ -12,7 +12,9 @@
     <header>
       <nav>
         <ul>
-          <li><a href="index.html"><img src="./img/logo.png" id="logo" /></li>
+          <li>
+            <a href="index.html"><img src="./img/logo.png" id="logo" /></a>
+          </li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="destinations.html">Destinations</a></li>
           <li><a href="form.html">Contact Us</a></li>
@@ -23,13 +25,21 @@
     </header>
     <main>
       <button class="open-button" onclick="openChat()">Open Chat</button>
-      <div class="chatbox" id="chat"></div>
       <div class="openChat">
-      <form>
-        <h1>Chat</h1>
-        
-      </form>
-
+        <form>
+          <h1>Chat</h1>
+          <label for="message">Message</label>
+          <textarea
+            placeholder="Type message here.."
+            name="msg"
+            required
+          ></textarea>
+          <button type="submit" class="send-button">Send</button>
+          <button type="button" class="close-button" onclick="closeChat()">
+            Close Chat
+          </button>
+        </form>
+      </div>
     </main>
 
     <footer>&copy; Flight Domain Travel Agency 2023</footer>
@@ -37,4 +47,3 @@
     <script src="./js/destinations.js"></script>
   </body>
 </html>
-
