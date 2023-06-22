@@ -10,9 +10,9 @@ FDTA is a flight agency webpage
 [Coding-G](https://www.scaler.com/topics/date-picker-in-html/)
 [Coding-A](https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/)
 [Coding-B](https://forum.freecodecamp.org/t/importing-survey-form-project-into-visual-studio-code/552783)
-https://www.w3schools.com/jsref/event_onclick.asp
-https://www.w3schools.com/howto/howto_js_popup_chat.asp
-https://www.scaler.com/topics/chat-interface-project-css/
+[Coding-J]https://www.w3schools.com/jsref/event_onclick.asp
+[Coding-J]https://www.w3schools.com/howto/howto_js_popup_chat.asp
+[Coding-J]https://www.scaler.com/topics/chat-interface-project-css/
 ### Lighthouse Accessibility Report Score
 
 ### Reflections & Comments
