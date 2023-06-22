@@ -1,19 +1,18 @@
 nav {
-    background:#ead5bf;
-    font-weight: bold;
-    width:100%;
-    text-align: center;
+  background: #ead5bf;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
 }
 ul {
-    display: flex;
-    flex-wrap: wrap;
-
-    justify-content: space-between;
-    align-items: center; 
-    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
 }
 
 #logo {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
