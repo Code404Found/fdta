@@ -1,5 +1,5 @@
 nav {
-    background:blanchedalmond;
+    background:#ead5bf;
     font-weight: bold;
     width:100%;
     text-align: center;
@@ -7,8 +7,9 @@ nav {
 ul {
     display: flex;
     flex-wrap: wrap;
+
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin: 10px;
 }
 
