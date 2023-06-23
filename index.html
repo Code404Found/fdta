@@ -24,9 +24,9 @@
       </nav>
     </header>
     <main>
-      <button class="open-button" onclick="openChat()">Open Chat</button>
-      <div class="openChat">
-        <form id='chat-form'>
+      <button id="open-button" onclick="openChat()">Open Chat</button>
+      <div id="open-chat">
+        <form id="chat-form">
           <h1>Chat</h1>
           <label for="message">Message</label>
           <textarea
@@ -34,8 +34,8 @@
             name="msg"
             required
           ></textarea>
-          <button type="submit" class="send-button">Send</button>
-          <button type="button" class="close-button" onclick="closeChat()">
+          <button type="submit" id="send-button">Send</button>
+          <button type="button" id="close-button" onclick="closeChat()">
             Close Chat
           </button>
         </form>
