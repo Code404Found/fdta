@@ -1,9 +1,14 @@
 "use strict";
 
 function openChat() {
-  document.getElementById("open-chat").style.display = "block";
+  document.getElementById("chat-form").style.display = "block";
 }
 
 function closeChat() {
-  document.getElementById("close-chat").style.display = none;
+  document.getElementById("chat-form").style.display = "none";
+}
+function handleSubmit(event){
+event.preventDefault();
+let target = event.target
+
 }

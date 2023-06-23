@@ -24,9 +24,9 @@
       </nav>
     </header>
     <main>
-      <button class="open-button" onclick="openChat()">Open Chat</button>
-      <div class="openChat">
-        <form>
+      <div id="open-chat">
+        <button id="open-button" onclick="openChat()">Open Chat</button>
+        <form id="chat-form">
           <h1>Chat</h1>
           <label for="message">Message</label>
           <textarea
@@ -34,16 +34,15 @@
             name="msg"
             required
           ></textarea>
-          <button type="submit" class="send-button">Send</button>
-          <button type="button" class="close-button" onclick="closeChat()">
+          <button type="submit" id="send-button">Send</button>
+          <button type="button" id="close-button" onclick="closeChat()">
             Close Chat
           </button>
         </form>
       </div>
     </main>
 
-    <footer>&copy; Flight Domain Travel Agency 2023</footer>
+    <footer><div>&copy; Flight Domain Travel Agency 2023</div></footer>
     <script src="./js/app.js"></script>
-   
   </body>
 </html>
