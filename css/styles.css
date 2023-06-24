@@ -12,6 +12,7 @@ ul {
   margin-left: 5px;
 }
 body {
+  
   background-image: url("/img/background.png");
   background-size: 100%;
 }
@@ -19,7 +20,13 @@ body {
   width: 60px;
   height: 60px;
 }
-
+/* .large-box{
+  
+} */
+.mid-box{
+  display:flex;
+  justify-content: space-between;
+}
 #open-button {
   background-color: grey;
   color: white;
