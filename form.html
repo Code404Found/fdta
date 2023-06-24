@@ -22,6 +22,37 @@
 
 <body>
 
+<div id="Weekly Newletter">
+	<div class='fieldset'>
+		<legend>Sign up for our weekly newsletter to win a FREE roundtrip to London!!</legend>
+		<form action="#" method="post" data-validate="parsley">
+			<div class='row'>
+				<label for='name'>Name</label>
+				<input type="text" placeholder="Name" name='name' id='name' data-required="true"
+					data-error-message="Your First Name is required">
+			</div>
+			<div class='row'>
+				<label for="email">E-mail</label>
+				<input type="text" placeholder="E-mail" name='email' data-required="true" data-type="email"
+					data-error-message="Your E-mail is required">
+			</div>
+			<div class='row'>
+				<label for="cemail">Confirm your E-mail</label>
+				<input type="text" placeholder="Confirm your E-mail" name='cemail' data-required="true"
+					data-error-message="Your E-mail must correspond">
+			</div>
+			
+			<input type="submit" onClick="window.open('img/ticket.png')"/>
+		
+			<style>
+				body {
+					background-image:
+					 url('./img/form\ background.png');
+				}
+			</style>
+			
+			 <!-- <img src="./img/form background.png">   -->
+				
 	<div id="Weekly Newletter">
 
 <head>
@@ -79,12 +110,3 @@
 	</div>
 </body>
 </html>
-
-
-
-
-
-	
-
-	
-
