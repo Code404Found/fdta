@@ -8,13 +8,14 @@ placeholderSupport = placeholderIsSupported() ? 'placeholder' : 'no-placeholder'
 $('html').addClass(placeholderSupport);  
 });
 
-<html>
-    <body>
-        <input type="submit" onClick="myFunction()"/>
-        <script> 
+<<<<<<< HEAD
+=======
+
+    
+      
             function myFunction() {
                 window.location.href="img/ticket.png"
             }
-        </script>
-    </body>
-</html>
+      
+   
+>>>>>>> 4e7af412932a032849d7e745a09297b016684089
