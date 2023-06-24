@@ -14,8 +14,6 @@ ul {
 body {
   background-image: url("/img/background.png");
   background-size: 100%;
-  
-  
 }
 #logo {
   width: 60px;
@@ -24,29 +22,29 @@ body {
 
 #open-button {
   background-color: grey;
- color: white;
- 
- padding: 15px;
- border:none;
- width: 280px;
- /* open button  */
+  color: white;
+
+  padding: 15px;
+  border: none;
+  width: 280px;
+  /* open button  */
 }
 #open-chat {
   position: fixed;
-  width:250px;
+  width: 250px;
   bottom: 0;
   right: 0;
 }
 #chat-form {
-/* position:relative; */
+  /* position:relative; */
   display: none;
 }
 #send-button {
   background-color: green;
   color: white;
   /* position:fixed; */
-/* position:relative; */
-  border:none;
+  /* position:relative; */
+  border: none;
   width: 280px;
 }
 #close-button {
@@ -54,10 +52,10 @@ body {
   color: white;
 
   padding: 15px;
-  border:none;
+  border: none;
   width: 280px;
 }
-#open-chat textarea{
+#open-chat textarea {
   width: 250px;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -68,12 +66,5 @@ body {
 }
 
 #chat-header {
-  display: block;
-  font-size: 2em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
+  font-size: 30px;
 }
-
