@@ -1,4 +1,3 @@
-
 nav {
   background: #ead5bf;
   font-weight: bold;
@@ -11,16 +10,70 @@ ul {
   justify-content: space-between;
   align-items: center;
   margin-left: 5px;
- 
 }
 body {
+  
   background-image: url("/img/background.png");
+  background-size: 100%;
 }
 #logo {
   width: 60px;
   height: 60px;
 }
-#open-chat{
-  /* shows whole form */
+.large-box{
+  padding:10px;
+}
+.mid-box{
+  display:flex;
+  justify-content: space-between;
+}
+#open-button {
+  background-color: grey;
+  color: white;
+
+  padding: 15px;
+  border: none;
+  width: 280px;
+  /* open button  */
+}
+#open-chat {
+  position: fixed;
+  background-color:white;
+  width: 250px;
+  bottom: 0;
+  right: 0;
+}
+#chat-form {
+  display: none;
+}
+#send-button {
+  background-color: green;
+  color: white;
+  padding: 15px;
+
+  border: none;
+  width: 280px;
+}
+#close-button {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border: none;
+  width: 280px;
+}
+#open-chat textarea {
+  width: auto;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+#chat-header {
+  font-size: 2em;
+  /* change font */
+  background-color: blue;
 }
 
