@@ -31,19 +31,20 @@ body {
 }
 #open-chat {
   position: fixed;
+  background-color: #ead5bf;
   width: 250px;
   bottom: 0;
   right: 0;
 }
 #chat-form {
-  /* position:relative; */
+ 
   display: none;
 }
 #send-button {
   background-color: green;
   color: white;
-  /* position:fixed; */
-  /* position:relative; */
+  padding:15px;
+
   border: none;
   width: 280px;
 }
@@ -61,10 +62,11 @@ body {
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
-  resize: none;
+  /* resize: none; */
   min-height: 200px;
 }
 
 #chat-header {
-  font-size: 30px;
+  font-size: 2em;
+
 }
