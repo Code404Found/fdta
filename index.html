@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
-    <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/datepicker.css" />
     <title>Flight Domain Travel Agency</title>
   </head>
@@ -22,7 +20,6 @@
           <li>Destinations</li>
           <li><a href="form.html">Contact Us</a></li>
           <li><a href="discounts.html">Discounts</a></li>
-          <!-- <li><input type="date" id="date" /></li> -->
         </ul>
         <link
           href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
@@ -79,11 +76,14 @@
           <!-- <img src="https://placehold.co/900x200" /> -->
         </div>
       </section>
+        </dropdown>
+      </section>
 
       <div id="open-chat">
-        <button id="open-button" onclick="openChat()">Open Chat</button>
-        <form id="chat-form">
+        <button id="open-button" onclick="openChat(event)">Open Chat</button>
+        <form onsubmit="handleSubmit(event)" id="chat-form">
           <h1 id="chat-header">Chat with us!</h1>
+          <div id="text"></div>
           <label for="message">Message</label>
           <textarea
             placeholder="Type message here.."
@@ -91,7 +91,7 @@
             required
           ></textarea>
           <button type="submit" id="send-button">Send</button>
-          <button type="button" id="close-button" onclick="closeChat()">
+          <button type="button" id="close-button" onclick="closeChat(event)">
             Close Chat
           </button>
         </form>
