@@ -1,37 +1,48 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="css/form.css">
+</head>
 <body>
+	<div id="Weekly Newletter">
+		<div class='fieldset'>
+			<legend>Sign up for our weekly newsletter to win a FREE roundtrip to London!!</legend>
+			<form action="#" method="post" data-validate="parsley">
+				<div class='row'>
+					<label for='name'>Name</label>
+					<input type="text" placeholder="Name" name='name' id='name' data-required="true"
+						data-error-message="Your First Name is required">
+				</div>
+				<div class='row'>
+					<label for="email">E-mail</label>
+					<input type="text" placeholder="E-mail" name='email' data-required="true" data-type="email"
+						data-error-message="Your E-mail is required">
+				</div>
+				<div class='row'>
+					<label for="cemail">Confirm your E-mail</label>
+					<input type="text" placeholder="Confirm your E-mail" name='cemail' data-required="true"
+						data-error-message="Your E-mail must correspond">
+				</div>
+				
+				<input type="submit" onClick="window.open('img/ticket.png')"/>
+			
+				
+				<!-- <img src="./img/Cream Modern Travel (Flyer).PNG"> -->
+		    
+				
+				
+			</form>
+	</div>
+</body>
+</html>
 
-<div id="Weekly Newletter">
-	<div class='fieldset'>
-		<legend>Sign up for our weekly newsletter to win a FREE roundtrip to London!!</legend>
-		<form action="#" method="post" data-validate="parsley">
-			<div class='row'>
-				<label for='name'>Name</label>
-				<input type="text" placeholder="Name" name='name' id='name' data-required="true"
-					data-error-message="Your First Name is required">
-			</div>
-			<div class='row'>
-				<label for="email">E-mail</label>
-				<input type="text" placeholder="E-mail" name='email' data-required="true" data-type="email"
-					data-error-message="Your E-mail is required">
-			</div>
-			<div class='row'>
-				<label for="cemail">Confirm your E-mail</label>
-				<input type="text" placeholder="Confirm your E-mail" name='cemail' data-required="true"
-					data-error-message="Your E-mail must correspond">
-			</div>
-			
-			<input type="submit" onClick="window.open('img/ticket.png')"/>
-		
-			
-			<img src="./img/Cream Modern Travel (Flyer).PNG">
-         
-			
-			
-		</form>
+
+
+
 
 	
 
-	</div>
-</div>
+	

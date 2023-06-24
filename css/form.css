@@ -1,5 +1,7 @@
 
-  
+  body{
+    background-image: url("/img/form-background.png");
+  }
   #registration-form {
     font-family:'Open Sans Condensed', sans-serif;
       width: 400px;
