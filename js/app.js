@@ -69,6 +69,12 @@ function numDays(month, year) {
   return new Date(year, month, 0).getDate();
 }
 
+
+
+
+
+
+
 var clicker = 0;
 var min = 0;
 var max = 0;
