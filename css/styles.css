@@ -82,3 +82,15 @@ position:relative;
   /* change font */
   background-color: blue;
 }
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+body {
+  background-color: lightblue;
+  margin: 20px;
+  padding: 20px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
