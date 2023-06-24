@@ -20,9 +20,9 @@ body {
   width: 60px;
   height: 60px;
 }
-/* .large-box{
-  
-} */
+.large-box{
+  padding:10px;
+}
 .mid-box{
   display:flex;
   justify-content: space-between;
