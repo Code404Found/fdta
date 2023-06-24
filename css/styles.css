@@ -55,7 +55,7 @@ body {
   width: 280px;
 }
 #open-chat textarea {
-  width: 235px;
+  width: auto;
   padding: 10px;
   margin: 5px 0 22px 0;
   border: none;
@@ -66,5 +66,7 @@ body {
 
 #chat-header {
   font-size: 2em;
+  /* change font */
   background-color: blue;
 }
+
