@@ -1,4 +1,9 @@
 
+  body {
+background-image: 
+url("/img/form\ background.png");
+ } 
+=======
 
   body{
     background-image: url("/img/form-background.png");
