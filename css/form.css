@@ -9,7 +9,9 @@
       margin: 20px auto;
       position: absolute;
   }
- 
+  #weekly-newsletter{
+    position: fixed;
+  }
   
   #registration-form .fieldset {
       background-color:#d5d5d5;
