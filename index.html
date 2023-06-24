@@ -27,13 +27,10 @@
       <div id="open-chat">
         <button id="open-button" onclick="openChat()">Open Chat</button>
         <form id="chat-form">
-          <h1>Chat</h1>
+          <h1 id="chat-header">Chat</h1>
           <label for="message">Message</label>
-          <textarea
-            placeholder="Type message here.."
-            name="msg"
-            required
-          ></textarea>
+          <textarea placeholder="Type message here.." name="msg" required>
+        
           <button type="submit" id="send-button">Send</button>
           <button type="button" id="close-button" onclick="closeChat()">
             Close Chat
@@ -42,7 +39,7 @@
       </div>
     </main>
 
-    <footer><div>&copy; Flight Domain Travel Agency 2023</div></footer>
     <script src="./js/app.js"></script>
+    <!-- <footer><div>&copy; Flight Domain Travel Agency 2023</div></footer> -->
   </body>
 </html>

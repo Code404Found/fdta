@@ -13,6 +13,9 @@ ul {
 }
 body {
   background-image: url("/img/background.png");
+  background-size: 100%;
+  
+  
 }
 #logo {
   width: 60px;
@@ -30,26 +33,47 @@ body {
 }
 #open-chat {
   position: fixed;
+  width:250px;
   bottom: 0;
   right: 0;
 }
 #chat-form {
-  /* form container */
+/* position:relative; */
   display: none;
 }
 #send-button {
   background-color: green;
   color: white;
   /* position:fixed; */
-  padding: 15px;
+/* position:relative; */
   border:none;
   width: 280px;
 }
 #close-button {
   background-color: red;
   color: white;
- 
+
   padding: 15px;
   border:none;
   width: 280px;
 }
+#open-chat textarea{
+  width: 250px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+#chat-header {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
