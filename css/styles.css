@@ -61,12 +61,13 @@ body {
   width: 280px;
 }
 #open-chat textarea {
-  width: auto;
+  width: 240px;
+  text-align:center;
   padding: 10px;
-  margin: 5px 0 22px 0;
+  /* margin: 5px 0 22px 0; */
   border: none;
   background: #f1f1f1;
-  resize: none;
+  /* resize: none; */
   min-height: 200px;
 }
 
