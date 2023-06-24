@@ -60,3 +60,9 @@ for (var i = 1; i <= days; i++) {
   //write out the days
   $("<li>" + i + "</li>").appendTo(".calendar ul");
 }
+
+function firstDay(month, year) {
+  return new Date(year, month, 1).getDay();
+}
+
+
