@@ -19,8 +19,14 @@ body {
   width: 60px;
   height: 60px;
 }
-.large-box{
-  padding:10px;
+.slide-container{
+max-width: 1000px;
+position:relative;
+
+}
+.slide-fade img{
+  width: 1000px;
+  height:350px;
 }
 .mid-box{
   display:flex;
@@ -61,12 +67,13 @@ body {
   width: 280px;
 }
 #open-chat textarea {
-  width: auto;
+  width: 240px;
+  text-align:center;
   padding: 10px;
-  margin: 5px 0 22px 0;
+  /* margin: 5px 0 22px 0; */
   border: none;
   background: #f1f1f1;
-  resize: none;
+  /* resize: none; */
   min-height: 200px;
 }
 

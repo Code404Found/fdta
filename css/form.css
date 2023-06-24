@@ -1,3 +1,9 @@
+
+
+  body{
+    background-image: url("/img/form-background.png");
+  }
+
   #registration-form {
     font-family: 'Open Sans Condensed', sans-serif;
     width: 400px;
@@ -5,6 +11,11 @@
     margin: 20px auto;
     position: absolute;
   }
+
+  #weekly-newsletter{
+    position: fixed;
+  }
+  
 
   #registration-form .fieldset {
     background-color: #d5d5d5;
