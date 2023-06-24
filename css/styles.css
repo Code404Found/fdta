@@ -19,8 +19,14 @@ body {
   width: 60px;
   height: 60px;
 }
-.large-box{
-  padding:10px;
+.slide-container{
+max-width: 1000px;
+position:relative;
+
+}
+.slide-fade img{
+  width: 1000px;
+  height:350px;
 }
 .mid-box{
   display:flex;
