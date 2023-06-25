@@ -15,6 +15,8 @@ FDTA is a flight agency webpage
 [Coding-J](https://www.scaler.com/topics/chat-interface-project-css/)
 
 ### Lighthouse Accessibility Report Score
+![Performance Report](https://github.com/Code404Found/fdta/assets/127991428/e23b1aa3-fec8-4c7b-8031-22029cac72b3)
+
 
 ### Reflections & Comments
 
