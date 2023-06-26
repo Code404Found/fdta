@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
-   
+
     <title>Flight Domain Travel Agency</title>
   </head>
 
@@ -31,11 +31,27 @@
           rel="stylesheet"
           href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
         />
-      
       </nav>
     </header>
-
+    
     <main>
+      <div id="image1">
+        <img src="/img/slideshow.jpg"/>
+      </div>
+      <div id="play-container">
+        <div id="player">
+          <input type="button" value="Play" id="play-button" onclick="play('music')" />
+            <audio id="music" src="tropicana.mp3"></audio>
+          <input type="button" value="Pause" id="pause-button" onclick="pause('music')" />
+          <audio id="music" src="tropicana.mp3"></audio>
+          <div id="text">Enjoy This Music While You Browse!</div>
+        </div>
+        <p id="license">
+          Music from #Uppbeat (free for Creators!):
+          https://uppbeat.io/t/soundroll/tropicana License code:
+          1EQADKXCP172QC0K
+        </p>
+      </div>
       <section id="large-container">
         <div class="large-box">
           <!-- <img src="https://placehold.co/741x300" /> -->
@@ -54,8 +70,8 @@
           <!-- <img src="https://placehold.co/900x200" /> -->
         </div>
       </section>
-        </dropdown>
-      </section>
+      <!-- </dropdown> -->
+      <!-- </section> -->
 
       <div id="open-chat">
         <button id="open-button" onclick="openChat(event)">Open Chat</button>
@@ -70,7 +86,7 @@
           ></textarea>
           <button type="submit" id="send-button">Send</button>
           <button type="button" id="close-button" onclick="closeChat(event)">
-            Close Chat
+            End Chat
           </button>
         </form>
       </div>

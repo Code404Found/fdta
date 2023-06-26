@@ -1,4 +1,15 @@
 "use strict";
+
+function play(musicId) {
+  let playMusic = document.getElementById(musicId);
+  playMusic.play();
+}
+function pause(musicId) {
+  let pauseMusic = document.getElementById(musicId);
+  pauseMusic.pause();
+}
+
+
 let chatHolder = document.getElementById("text");
 
 function openChat() {
